@@ -1,4 +1,4 @@
-# Analisis Array Acak Modern
+# Analisis Array Acak
 
 ## Deskripsi Proyek
 Proyek **Analisis Array Acak Modern** adalah aplikasi web yang dirancang untuk menghasilkan array berisi 100 nilai random antara 1 hingga 50. Nilai-nilai dalam array ini kemudian dipisahkan menjadi dua array berdasarkan indexnya: satu untuk index genap dan satu untuk index ganjil. Selain itu, aplikasi ini juga melakukan analisis statistik pada kedua array tersebut dengan menghitung nilai minimum, maksimum, total, dan rata-rata, serta membandingkan hasil antara kedua array.
