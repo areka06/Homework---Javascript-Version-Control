@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+h3 {
+    color: #6c757d;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.result-box {
+    height: 200px;
+    overflow-y: auto;
+    background-color: #f1f3f5;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+.result-box:hover {
+    box-shadow: 0 0 10px rgba(0,123,255,0.3);
+}
+#generate {
+    transition: all 0.3s ease;
+}
+#generate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+}
+.stats-card {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.comparison-item {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+.comparison-item:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
